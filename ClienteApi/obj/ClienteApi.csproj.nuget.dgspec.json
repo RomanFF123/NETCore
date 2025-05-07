@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\laragon\\www\\NETCore\\clienteApi\\ClienteApi.csproj": {}
+    "C:\\laragon\\www\\NETCore\\ClienteApi\\ClienteApi.csproj": {}
   },
   "projects": {
-    "C:\\laragon\\www\\NETCore\\clienteApi\\ClienteApi.csproj": {
+    "C:\\laragon\\www\\NETCore\\ClienteApi\\ClienteApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\laragon\\www\\NETCore\\clienteApi\\ClienteApi.csproj",
+        "projectUniqueName": "C:\\laragon\\www\\NETCore\\ClienteApi\\ClienteApi.csproj",
         "projectName": "ClienteApi",
-        "projectPath": "C:\\laragon\\www\\NETCore\\clienteApi\\ClienteApi.csproj",
+        "projectPath": "C:\\laragon\\www\\NETCore\\ClienteApi\\ClienteApi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\laragon\\www\\NETCore\\clienteApi\\obj\\",
+        "outputPath": "C:\\laragon\\www\\NETCore\\ClienteApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,14 @@
               "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
