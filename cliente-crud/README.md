@@ -1,4 +1,7 @@
 # cliente-crud
+# 
+git@github.com:RomanFF123/NETCore.git
+cd cliente-crud
 
 ## Project setup
 ```
